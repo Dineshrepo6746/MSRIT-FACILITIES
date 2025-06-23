@@ -62,7 +62,7 @@ const Register = () => {
         <input
           type="email"
           name="email"
-          placeholder="College Email (must end with @msrit.edu)"
+          placeholder="Email"
           value={formData.email}
           onChange={handleChange}
           required

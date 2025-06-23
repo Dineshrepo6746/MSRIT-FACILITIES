@@ -47,12 +47,7 @@ function Home() {
       {/* Main Container */}
       <div style={styles.container} className={fadeIn ? "fade-in" : ""}>
         <div style={styles.headerContainer}>
-          <img
-            src="/images/ramaiah logo.png"
-            alt="Ramaiah Institute of Technology Logo"
-            style={styles.logo}
-          />
-          <h1 style={styles.title}>Welcome to MSRIT Facilities Portal</h1>
+          <h1 style={styles.title}>Facilities</h1>
         </div>
         <p style={styles.subtitle}>
           Seamlessly book your preferred facilities and make the most of your
@@ -172,12 +167,6 @@ const styles = {
     justifyContent: "center",
     gap: "15px", // Reduced from 20px
     marginBottom: "20px", // Reduced from 25px
-  },
-  logo: {
-    height: "60px", // Fixed height instead of maxWidth
-    width: "auto",
-    objectFit: "contain",
-    margin: 0, // Remove auto margins
   },
   title: {
     fontSize: "2.5rem", // Slightly smaller to match logo height
